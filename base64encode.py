@@ -46,8 +46,6 @@ if len(new_b)%6!=0:
             final=final+'='
         print(final)
 else:
-    print(len(new_b))
-    print (new_b)
     for i in range(0,(len(str(new_b))),6):
         part=str(new_b)[i:i+6]
         dec=str(b_d(int(part)))
